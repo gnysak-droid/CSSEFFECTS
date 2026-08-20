@@ -1,0 +1,21 @@
+/* Apply Google Font to the entire page */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Default image styling and smooth transition */
+img {
+  width: 300px;
+  border-radius: 8px;
+  /* Adds smooth animation when hovering */
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover effect on image */
+img:hover {
+  transform: scale(1.05) rotate(2deg); /* Scales up slightly and rotates */
+  filter: brightness(1.1);             /* Increases brightness slightly */
+  cursor: pointer;
+}
